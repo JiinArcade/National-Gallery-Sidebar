@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>반응형 레이아웃</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_package_v0.16 (5)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package_v0.16 (5)/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#ffffff">
+  <script src="https://kit.fontawesome.com/ce0de73234.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav>
+        <h1 class="logo">
+          <a href="./index.html">
+            <img src="./images/네셔널갤러리 로고.png" alt="내셔널갤러리">
+          </a>
+        </h1>
+
+        <div class="sm-only gnb-icon-button">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <ul class="gnb-list sm-hidden">
+          <li class="gnb-item"><a href="">
+            memu1</a></li>
+          <li class="gnb-item"><a href="">
+            menu2</a></li>
+          <li class="gnb-item"><a href="">
+            menu3</a></li>
+          <li class="gnb-item"><a href="">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="back"></section>
+      <section class="box-list">
+        <div>SECTION1</div>
+        <div>SECTION2</div>
+        <div>SECTION3</div>
+      </section>
+    </main>
+
+    <aside class="sidebar sm-only">
+      <nav class="sidevar-nav">
+        <h2 class="visually-hidden">메뉴</h2>
+        <div class="sidebar-menu">
+          <ul class="sidebar-list">
+            <li class="sidebar-item"><a href="">menu1</a></li>
+            <li class="sidebar-item"><a href="">menu2</a></li>
+            <li class="sidebar-item"><a href="">menu3</a></li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
+
+    <div class="overlay is-action"></div>
+
+    <footer>FOOTER</footer>
+  </div>
+
+  <script src="./js/sidebar.js"></script>
+</body>
+</html>
